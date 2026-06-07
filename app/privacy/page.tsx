@@ -46,7 +46,7 @@ export default function PrivacyPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-zinc-50 dark:from-zinc-950 dark:to-black">
+    <main className="min-h-screen bg-linear-to-b from-white to-zinc-50 dark:from-zinc-950 dark:to-black">
       {/* HEADER */}
       <motion.header
         initial={{ y: -20, opacity: 0 }}
